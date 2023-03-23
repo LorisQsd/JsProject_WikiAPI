@@ -1,2 +1,2 @@
 # JsProject_WikiAPI
-First projet using an API
+First project using an API
