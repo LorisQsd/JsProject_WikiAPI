@@ -1,0 +1,95 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: clamp(20px, 5vw, 50px) 20px 20px;
+}
+
+input,
+img,
+form {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  max-width: clamp(100px, 25vw, 250px);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #333;
+  font-size: clamp(20px, 5vw, 50px);
+}
+
+h1 span {
+  font-weight: 900;
+}
+
+form {
+  max-width: 800px;
+}
+
+input {
+  padding: 15px 15px;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+
+p {
+  color: rgb(206, 54, 54);
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+h1, h2, p {
+  text-align: center;
+  display: block;
+}
+
+a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.linkCard a:nth-child(2) {
+  font-size: 16px;
+  color: green;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.linkCard {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.linkCard p {
+  text-align: start;
+  margin: 0;
+  color: gray;
+}
+
+#loading {
+  font-size: 100px;
+  color: black;
+  margin: 0;
+}
