@@ -10,17 +10,24 @@
 
 <body>
 
-  <img src="../ressources/wiki-logo.png" alt="Logo Wikipedia">
+  <img src="ressources/wiki-logo.png" alt="Logo Wikipedia">
   <h1>Recherche <span>Wikipedia</span></h1>
 
   <form>
     <input type="text" placeholder="Recherchez un terme" id="search" autocomplete="off">
   </form>
 
-  <p id="errorEmptyText"></p>
-  <p id="loading"></p>
+  <p id="errorMsg"></p>
+
   <div id="result"></div>
-  <script src="app.js"></script>
+
+  <div class="loader">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script src="app3.js"></script>
 </body>
 
 </html>
